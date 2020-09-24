@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #556b2f;
+  font-family: fantasy;
+}
+
+body {
+  background-image: url(./images/b_mo01a_m.png);
+  background-size: cover;
+}
+
+.game-header {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 45px;
+}
+
+nav {
+  text-align: center;
+  font-size: 10px;
+}
+
+#fairly {
+  width: 5%;
+  padding: 10px;
+  position: relative;
+  /* 要素のデフォルトと配置は、左上だから、下に押しやるtopか、右に押しやるleftになる */
+  top: 0;
+  left: 0;
+}
